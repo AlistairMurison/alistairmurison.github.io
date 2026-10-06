@@ -259,6 +259,18 @@ footer p {
 
 }
 
+.projects-page {
+    padding: 70px 0 90px;
+}
+
+.page-heading h1 {
+    font-size: 42px;
+}
+
+.project-entry h2 {
+    font-size: 26px;
+}
+
 /* Small phones */
 
 @media (max-width: 500px) {
