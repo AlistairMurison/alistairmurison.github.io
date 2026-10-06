@@ -2,140 +2,375 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <title>Projects | Alistair Murison</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
     <!-- Navigation -->
+
     <header>
+
         <nav>
+
             <a href="index.html" class="logo">
                 Alistair Murison
             </a>
+
             <div class="nav-links">
                 <a href="projects.html">Projects</a>
                 <a href="about.html">About</a>
                 <a href="cv.pdf">CV</a>
             </div>
+
         </nav>
+
     </header>
-  
+
+
     <!-- Main content -->
+
     <main>
+
         <section class="projects-page">
+
+
+            <!-- Page heading -->
+
             <div class="page-heading">
+
                 <p class="eyebrow">Portfolio</p>
+
                 <h1>Projects</h1>
+
                 <p>
-                    A selection of academic, professional and personal
+                    A selection of academic, professional and
                     engineering projects.
                 </p>
+
             </div>
 
 
-            <!-- CFD Project -->
-            <article class="project-entry">
-                <div class="project-entry-content">
-                    <p class="project-category">
-                        Computational Fluid Dynamics
-                    </p>
-                    <h2>
-                        CFD Simulation of Flow Through an Orifice Plate
-                    </h2>
+            <!-- =================================================
+                 MEng Individual Project
+                 ================================================= -->
+
+            <details class="project-entry">
+
+                <summary>
+
+                    <div class="project-summary">
+
+                        <p class="project-category">
+                            Mechanical Design
+                        </p>
+
+                        <h2>
+                            Actuated Sensor Alignment System
+                            for Subsea Applications
+                        </h2>
+
+                        <p class="project-short-description">
+                            Engineering design of an actuated sensor
+                            alignment system for a gravity-moored
+                            subsea sensor platform.
+                        </p>
+
+                    </div>
+
+                    <span class="expand-icon">+</span>
+
+                </summary>
+
+
+                <!-- Expanded project content -->
+
+                <div class="project-details">
+
+                    <h3>Overview</h3>
+
                     <p>
-                        Computational fluid dynamics investigation of flow
-                        through an orifice plate using STAR-CCM+.
+                        This project investigates the engineering design
+                        of an actuated sensor alignment system for a
+                        gravity-moored subsea platform. The system is
+                        intended to compensate for sensor misalignment
+                        caused by tidal forces and maintain the required
+                        sensor orientation at depths of up to 100 m.
                     </p>
+
+
+                    <h3>Project objectives</h3>
+
+                    <ul>
+
+                        <li>
+                            Develop an engineering design specification
+                            for the alignment system.
+                        </li>
+
+                        <li>
+                            Investigate suitable actuator configurations.
+                        </li>
+
+                        <li>
+                            Evaluate appropriate materials and
+                            mechanical components.
+                        </li>
+
+                        <li>
+                            Analyse the structural behaviour of the
+                            proposed design.
+                        </li>
+
+                        <li>
+                            Use engineering analysis, including FEA
+                            and CFD where appropriate.
+                        </li>
+
+                    </ul>
+
+
+                    <h3>Technical focus</h3>
+
                     <p>
-                        The project involved developing a CFD model,
-                        investigating mesh independence and convergence,
-                        and comparing the simulated pressure drop with
-                        theoretical predictions based on ISO 5167.
+                        The project combines mechanical design,
+                        actuator selection, structural analysis and
+                        subsea engineering considerations. Particular
+                        attention is being given to the effects of
+                        hydrostatic pressure, tidal loading and
+                        actuator requirements.
                     </p>
-                    <a href="projects/orifice-plate/">
-                        View project →
-                    </a>
+
+
+                    <!-- PDF -->
+
+                    <h3>Project documentation</h3>
+
+                    <p>
+                        The project documentation can be viewed below.
+                    </p>
+
+                    <div class="pdf-viewer">
+
+                        <iframe
+                            src="pdfs/subsea-sensor.pdf"
+                            title="Subsea Sensor Alignment System project document">
+                        </iframe>
+
+                    </div>
+
+
+                    <div class="pdf-link">
+
+                        <a href="pdfs/subsea-sensor.pdf"
+                           target="_blank">
+                            Open PDF in a new tab →
+                        </a>
+
+                    </div>
+
                 </div>
-            </article>
+
+            </details>
 
 
-            <!-- Subsea Project -->
-            <article class="project-entry">
+            <!-- =================================================
+                 CFD Project
+                 ================================================= -->
 
-                <div class="project-entry-content">
+            <details class="project-entry">
 
-                    <p class="project-category">
-                        Mechanical Design
-                    </p>
+                <summary>
 
-                    <h2>
-                        Actuated Sensor Alignment System for Subsea Applications
-                    </h2>
+                    <div class="project-summary">
+
+                        <p class="project-category">
+                            Computational Fluid Dynamics
+                        </p>
+
+                        <h2>
+                            CFD Simulation of Flow Through
+                            an Orifice Plate
+                        </h2>
+
+                        <p class="project-short-description">
+                            CFD investigation of flow through an
+                            orifice plate using STAR-CCM+.
+                        </p>
+
+                    </div>
+
+                    <span class="expand-icon">+</span>
+
+                </summary>
+
+
+                <div class="project-details">
+
+                    <h3>Overview</h3>
 
                     <p>
-                        Engineering design of an actuated sensor alignment
-                        system for a gravity-moored subsea sensor platform.
+                        This project investigates the flow through an
+                        orifice plate using computational fluid dynamics.
+                        The simulation is developed in STAR-CCM+ and
+                        compared against theoretical predictions based
+                        on the ISO 5167 standard.
                     </p>
+
+
+                    <h3>Technical focus</h3>
 
                     <p>
-                        The project investigates actuator configurations,
-                        materials, mechanical design and the effects of
-                        tidal forces on sensor alignment at depths of up
-                        to 100 m.
+                        The investigation considers mesh independence,
+                        turbulence modelling, pressure loss and the
+                        development of the flow through the orifice.
+                        Simulation results are compared with theoretical
+                        calculations to assess the accuracy of the CFD
+                        model.
                     </p>
 
-                    <a href="projects/subsea-sensor/">
-                        View project →
-                    </a>
+
+                    <h3>Project report</h3>
+
+                    <div class="pdf-viewer">
+
+                        <iframe
+                            src="pdfs/orifice-plate.pdf"
+                            title="CFD Orifice Plate project report">
+                        </iframe>
+
+                    </div>
+
+
+                    <div class="pdf-link">
+
+                        <a href="pdfs/orifice-plate.pdf"
+                           target="_blank">
+                            Open PDF in a new tab →
+                        </a>
+
+                    </div>
 
                 </div>
 
-            </article>
+            </details>
 
 
-            <!-- Rail Project -->
-            <article class="project-entry">
+            <!-- =================================================
+                 Railway Engineering
+                 ================================================= -->
 
-                <div class="project-entry-content">
+            <details class="project-entry">
 
-                    <p class="project-category">
-                        Railway Engineering
-                    </p>
+                <summary>
 
-                    <h2>
-                        Overhead Line Equipment Engineering
-                    </h2>
+                    <div class="project-summary">
+
+                        <p class="project-category">
+                            Railway Engineering
+                        </p>
+
+                        <h2>
+                            Railway Overhead Line Equipment
+                        </h2>
+
+                        <p class="project-short-description">
+                            Engineering experience in railway
+                            electrification during an industrial
+                            placement with Furrer+Frey GB.
+                        </p>
+
+                    </div>
+
+                    <span class="expand-icon">+</span>
+
+                </summary>
+
+
+                <div class="project-details">
+
+                    <h3>Overview</h3>
 
                     <p>
-                        Engineering work undertaken during an industrial
-                        placement with Furrer+Frey GB, specialising in
+                        Engineering work undertaken during an
+                        industrial placement with Furrer+Frey GB,
+                        working on overhead line equipment for
                         railway electrification.
                     </p>
 
+
+                    <h3>Experience</h3>
+
                     <p>
                         Work included component and structure testing,
-                        technical research, report writing and engineering
-                        investigations relating to overhead line equipment.
+                        technical research, report writing and
+                        engineering investigations relating to
+                        overhead line equipment.
                     </p>
 
-                    <a href="projects/rail-ole/">
-                        View project →
-                    </a>
+
+                    <h3>Selected work</h3>
+
+                    <ul>
+
+                        <li>
+                            E-LIFT global review
+                        </li>
+
+                        <li>
+                            iCAGE composite cantilever testing
+                        </li>
+
+                        <li>
+                            SPL crimp method testing
+                        </li>
+
+                        <li>
+                            Warehouse anchor bolt replacement
+                        </li>
+
+                    </ul>
+
+
+                    <!-- PDF can be added later -->
+
+                    <div class="pdf-link">
+
+                        <a href="#">
+                            Project documentation →
+                        </a>
+
+                    </div>
 
                 </div>
 
-            </article>
+            </details>
 
 
         </section>
 
     </main>
+
+
+    <!-- Footer -->
+
     <footer>
+
         <p>© 2026 Alistair Murison</p>
+
     </footer>
+
+
 </body>
+
 </html>
