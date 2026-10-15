@@ -138,65 +138,142 @@
                             Computational Fluid Dynamics
                         </p>
                         <h2>
-                            CFD Simulation of Flow Through
-                            an Orifice Plate, High Speed Shinkansen in the Channel Tunnel
+                            Computational Fluid Dynamics Projects
                         </h2>
                         <p class="project-short-description">
-                            Two seperate CFD investigations of flow through an
-                            orifice plate, and of a Shinkansen bullet train in the Channel Tunnel, using STAR-CCM+.
+                            CFD studies investigating internal pipe flow,
+                            high-speed train aerodynamics and fluid forces
+                            using STAR-CCM+. Completed as assessment in university
+                            course lead by Professor David Ingram.
                         </p>
                     </div>
                     <span class="expand-icon">+</span>
                 </summary>
 
                 <div class="project-details">
-                    <h3>Overview</h3>
-                    <p>
-                        The first project investigates the flow through an
-                        orifice plate using computational fluid dynamics.
-                        The simulation is developed in STAR-CCM+ and
-                        compared against theoretical predictions based
-                        on the ISO 5167 standard.
-                    </p>
-                    <p>
-                        The second project investigates...
-                    </p>
-                    
-                    <h3>Technical focus</h3>
-                    <p>
-                        The investigation considers mesh independence,
-                        turbulence modelling, pressure loss and the
-                        development of the flow through the orifice.
-                        Simulation results are compared with theoretical
-                        calculations to assess the accuracy of the CFD
-                        model.
-                    </p>
 
-                    <h3>Project report</h3>
-                    <div class="pdf-viewer">
-                        <iframe
-                            src="pdfs/CFD_Oriface_Plate_Flow.pdf"
-                            title="CFD Orifice Plate project report">
-                        </iframe>
-                    </div>
-                    <div class="pdf-link">
-                        <a href="pdfs/CFD_Oriface_Plate_Flow.pdf"
-                           target="_blank">
-                            Open PDF in a new tab →
-                        </a>
-                    </div>
-                    <div class="pdf-viewer">
-                        <iframe
-                            src="pdfs/CFD_Shinkansen_Channel_Tunnel.pdf"
-                            title="CFD Orifice Plate project report">
-                        </iframe>
-                    </div>
-                    <div class="pdf-link">
-                        <a href="pdfs/CFD_Shinkansen_Channel_Tunnel.pdf"
-                           target="_blank">
-                            Open PDF in a new tab →
-                        </a>
-                    </div>
+        <!-- ORIFICE PLATE PROJECT -->
+
+        <h3>1. CFD Simulation of Flow Through an Orifice Plate</h3>
+
+        <p>
+            Designed and simulated an orifice plate flow meter
+            in a 280 mm diameter pipe using STAR-CCM+, with the
+            aim of predicting the pressure differential across
+            the plate under high-pressure nitrogen flow conditions.
+            The design was developed with reference to BS EN ISO
+            5167, considering plate geometry, diameter ratio and
+            pressure-tapping locations.
+        </p>
+
+        <p>
+            Developed a two-dimensional axisymmetric model using
+            the SST k-ω turbulence model. Investigated mesh
+            refinement, near-wall prism layers, turbulence
+            modelling and the inlet length required to establish
+            fully developed flow. Analysed pressure and velocity
+            fields to identify flow separation, recirculation
+            regions and downstream pressure recovery.
+        </p>
+
+        <p>
+            Compared the simulated pressure differential against
+            the theoretical prediction from the ISO 5167
+            correlations. The initial comparison revealed a
+            significant discrepancy, highlighting the importance
+            of mesh quality, boundary conditions and further
+            validation before CFD results can be used for design.
+        </p>
+
+        <h4>Key technical areas</h4>
+
+        <ul>
+            <li>STAR-CCM+ and axisymmetric CFD modelling</li>
+            <li>SST k-ω turbulence modelling</li>
+            <li>Mesh refinement and near-wall treatment</li>
+            <li>ISO 5167 orifice meter design and pressure-drop calculations</li>
+            <li>Critical evaluation of numerical results against theory</li>
+        </ul>
+
+        <h4>Project report</h4>
+
+        <div class="pdf-viewer">
+            <iframe
+                src="pdfs/CFD_Orifice_Plate_Flow.pdf"
+                title="CFD Simulation of Flow Through an Orifice Plate report"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="pdf-link">
+            <a href="pdfs/CFD_Orifice_Plate_Flow.pdf" target="_blank">
+                Open orifice plate report in a new tab →
+            </a>
+        </div>
+
+
+        <!-- SHINKANSEN PROJECT -->
+
+        <h3>2. CFD Simulation of a High-Speed Shinkansen in the Channel Tunnel</h3>
+
+        <p>
+            Investigated the aerodynamic effects of operating an
+            E5/H5-class Shinkansen at 313 km/h in the Channel Tunnel,
+            significantly above the existing 160 km/h speed limit
+            considered in the study. Using STAR-CCM+, modelled the
+            interaction between the train and tunnel to assess
+            pressure changes, aerodynamic forces and the flow
+            structures generated around the train.
+        </p>
+
+        <p>
+            Developed a three-dimensional model of a four-carriage
+            train within the tunnel, using a simplified geometry to
+            balance physical detail and computational cost.
+            Applied a compressible ideal-gas model and SST k-ω
+            turbulence modelling, with local mesh refinement around
+            the train nose, tail and carriage gaps. Conducted a
+            grid-convergence study using the train drag coefficient
+            and compared steady and unsteady solutions.
+        </p>
+
+        <p>
+            The simulations identified accelerated flow between
+            the train and tunnel walls, substantial wake regions
+            and pressure variations along the train. The grid
+            study showed a consistent convergence trend, but
+            numerical uncertainty remained because computational
+            resources limited further refinement. This provided
+            an opportunity to assess the limitations of the model
+            when interpreting engineering loads.
+        </p>
+
+        <h4>Key technical areas</h4>
+
+        <ul>
+            <li>Three-dimensional external and internal flow modelling</li>
+            <li>Compressible flow and ideal-gas modelling</li>
+            <li>Mesh refinement and grid-convergence analysis</li>
+            <li>Boundary-layer and prism-layer meshing</li>
+            <li>Aerodynamic drag, lift and tunnel-wall loading</li>
+            <li>Evaluation of numerical uncertainty and computational constraints</li>
+        </ul>
+
+        <h4>Project report</h4>
+
+        <div class="pdf-viewer">
+            <iframe
+                src="pdfs/CFD_Shinkansen_Channel_Tunnel.pdf"
+                title="CFD Simulation of a High-Speed Shinkansen in the Channel Tunnel report"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="pdf-link">
+            <a href="pdfs/CFD_Shinkansen_Channel_Tunnel.pdf" target="_blank">
+                Open Shinkansen report in a new tab →
+            </a>
+        </div>
                 </div>
             </details>
 
