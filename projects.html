@@ -820,6 +820,306 @@
                     </div>           
                 </div>           
             </details>
+
+            <!-- =================================================
+                 HYPED Friction Brake System
+                 ================================================= -->
+            
+            <details class="project-entry">
+            
+                <summary>
+            
+                    <div class="project-summary">
+            
+                        <p class="project-category">
+                            Mechanical Design | Hyperloop
+                        </p>
+            
+                        <h2>
+                            Fail-Safe Friction Braking System – HYPED
+                        </h2>
+            
+                        <p class="project-short-description">
+                            Design and development of an electrically and
+                            pneumatically fail-safe friction braking system
+                            for Edinburgh Hyperloop's Pod Ness prototype.
+                        </p>
+            
+                    </div>
+            
+                    <span class="expand-icon">+</span>
+            
+                </summary>
+            
+            
+                <div class="project-details">
+            
+            
+                    <!-- OVERVIEW -->
+            
+                    <h3>Overview</h3>
+            
+                    <p>
+                        As part of the Dynamic Subteam of Edinburgh Hyperloop
+                        (HYPED), contributed to the design and development
+                        of a friction braking system for Pod Ness, a
+                        prototype Hyperloop vehicle. The system was designed
+                        to provide independent emergency braking alongside
+                        the linear induction motor's regenerative braking,
+                        ensuring the pod could safely stop in the event
+                        of electrical or pneumatic failure.
+                    </p>
+            
+                    <p>
+                        The design incorporated two mechanically actuated
+                        brake modules, using spring-applied braking force
+                        and pneumatic release. The project involved
+                        translating performance and safety requirements
+                        into a functional mechanical design, supported
+                        by engineering calculations, CAD modelling
+                        and finite element analysis.
+                    </p>
+            
+            
+                    <!-- SYSTEM DESIGN -->
+            
+                    <h3>1. Brake System Design</h3>
+            
+                    <p>
+                        Developed a compact braking mechanism that clamps
+                        phenolic resin friction pads onto the upper and
+                        lower surfaces of an aluminium I-beam. Each module
+                        comprised a steel C-bracket, top plate, compression
+                        springs and a pneumatic actuator, with two
+                        symmetrically positioned modules providing
+                        balanced braking forces.
+                    </p>
+            
+                    <p>
+                        Designed the system to be electrically and
+                        pneumatically fail-safe. Four compression springs
+                        provide the braking force, while a back-drivable
+                        pneumatic actuator retracts the brake pads during
+                        normal operation. Loss of electrical power or
+                        pneumatic pressure allows the springs to extend
+                        automatically, engaging the brakes without
+                        requiring an external power source.
+                    </p>
+            
+                    <p>
+                        Considered packaging constraints within the pod
+                        chassis, including clearances around the I-beam,
+                        adjacent subsystems and suspension movement.
+                        Incorporated chamfered friction pads to
+                        accommodate track misalignment and minimise
+                        potentially damaging contact with the I-beam.
+                    </p>
+            
+            
+                    <!-- ENGINEERING CALCULATIONS -->
+            
+                    <h3>2. Engineering Calculations and Component Selection</h3>
+            
+                    <p>
+                        Established braking requirements based on a
+                        250 kg pod travelling at 16 m/s, with a maximum
+                        braking distance of 40 m. Applied kinematic
+                        equations and Newton's second law to determine
+                        the required deceleration and braking forces,
+                        resulting in a minimum braking force of 400 N
+                        per module.
+                    </p>
+            
+                    <p>
+                        Calculated the required spring forces using a
+                        friction coefficient of 0.4 for the phenolic
+                        resin pads. Selected four compression springs
+                        per module, each providing sufficient force to
+                        maintain the required braking performance
+                        throughout the allowable friction pad wear.
+                    </p>
+            
+                    <p>
+                        Selected a Festo pneumatic actuator with a
+                        100 mm piston diameter and 20 mm stroke.
+                        Evaluated actuator force, operating pressure
+                        and spring loading to ensure reliable brake
+                        disengagement during normal operation, while
+                        maintaining automatic engagement following
+                        pressure loss.
+                    </p>
+            
+                    <p>
+                        Considered material properties, component
+                        dimensions, availability and manufacturing
+                        constraints when selecting structural materials,
+                        bearings, springs, friction materials and
+                        pneumatic components.
+                    </p>
+            
+            
+                    <!-- CAD AND FEA -->
+            
+                    <h3>3. CAD Development and Structural Analysis</h3>
+            
+                    <p>
+                        Developed the braking assembly in SolidWorks,
+                        producing component models, engineering drawings
+                        and an integrated assembly incorporating the
+                        I-beam and chassis mounting arrangement.
+                    </p>
+            
+                    <p>
+                        Conducted finite element analysis to assess
+                        stresses and deflections in the C-bracket,
+                        top plate, mounting plate and M16 mounting bolts.
+                        Developed free-body diagrams to establish
+                        appropriate load cases for both engaged and
+                        disengaged braking conditions.
+                    </p>
+            
+                    <p>
+                        Applied conservative loading assumptions,
+                        including an increased friction coefficient
+                        of 0.5 during structural simulations, to
+                        account for potential variations in operating
+                        conditions. Evaluated stress concentrations
+                        and component deformation against material
+                        yield strengths and the required minimum
+                        safety factor of 2.
+                    </p>
+            
+                    <p>
+                        Used simulation results to refine component
+                        geometry and thicknesses. In particular,
+                        increased the top plate thickness following
+                        initial analysis that identified stresses
+                        exceeding the allowable material strength.
+                        Subsequent analysis demonstrated acceptable
+                        stresses and a maximum plate deflection
+                        below 0.2 mm.
+                    </p>
+            
+            
+                    <!-- MANUFACTURING AND SAFETY -->
+            
+                    <h3>4. Manufacturing, Integration and Safety</h3>
+            
+                    <p>
+                        Developed a manufacturing strategy combining
+                        additive manufacturing, conventional machining
+                        and commercially available components.
+                        The C-bracket was specified for steel additive
+                        manufacturing, while the top plate and mounting
+                        components were to be machined. Standard
+                        pneumatic components, fasteners and compression
+                        springs were incorporated to simplify assembly
+                        and maintenance.
+                    </p>
+            
+                    <p>
+                        Considered integration with the pod chassis
+                        through an aluminium mounting plate attached
+                        to Bosch Rexroth structural profiles. Incorporated
+                        pressure regulation and monitoring to maintain
+                        the required actuator operating pressure,
+                        alongside provisions for monitoring brake
+                        engagement and friction pad wear.
+                    </p>
+            
+                    <p>
+                        Undertook a Failure Modes and Effects Analysis
+                        (FMEA) to identify potential hazards, including
+                        friction pad wear, component loosening,
+                        mechanical misalignment and excessive heat
+                        generation. Developed mitigation measures
+                        incorporating material selection, monitoring
+                        sensors, structural simulations and appropriate
+                        assembly procedures.
+                    </p>
+            
+                    <p>
+                        Established testing procedures to verify
+                        pneumatic actuation, automatic spring engagement
+                        following power loss and the operation of the
+                        integrated braking mechanism.
+                    </p>
+            
+            
+                    <!-- KEY TECHNICAL AREAS -->
+            
+                    <h3>Key technical areas</h3>
+            
+                    <ul>
+            
+                        <li>
+                            Mechanical design and CAD modelling using SolidWorks
+                        </li>
+            
+                        <li>
+                            Finite element analysis and structural optimisation
+                        </li>
+            
+                        <li>
+                            Pneumatic actuation and fail-safe mechanisms
+                        </li>
+            
+                        <li>
+                            Spring selection and friction braking calculations
+                        </li>
+            
+                        <li>
+                            Material selection and component specification
+                        </li>
+            
+                        <li>
+                            Design for manufacture and assembly
+                        </li>
+            
+                        <li>
+                            Failure Modes and Effects Analysis (FMEA)
+                        </li>
+            
+                        <li>
+                            Engineering drawings and subsystem integration
+                        </li>
+            
+                    </ul>
+            
+            
+                    <!-- PROJECT REPORT -->
+            
+                    <h3>Project documentation</h3>
+            
+                    <p>
+                        The final HYPED Pod Ness design documentation
+                        contains the complete braking system design,
+                        engineering calculations, simulations and
+                        component specifications.
+                    </p>
+            
+                    <div class="pdf-viewer">
+            
+                        <iframe
+                            src="pdfs/HYPED_Pod_Ness_Final_Design_Documentation.pdf"
+                            title="HYPED Pod Ness Final Design Documentation"
+                            allowfullscreen>
+                        </iframe>
+            
+                    </div>
+            
+                    <div class="pdf-link">
+            
+                        <a href="pdfs/HYPED_Pod_Ness_Final_Design_Documentation.pdf"
+                           target="_blank">
+                            Open PDF in a new tab →
+                        </a>
+            
+                    </div>
+            
+                </div>
+            
+            </details>
         </section>
     </main>
 
