@@ -34,8 +34,8 @@ nav {
     padding: 25px 40px;
 
     display: flex;
-    justify-content: center;
-    gap: 35px;
+    align-content: center;
+    gap: 25px;
 }
 
 nav a {
